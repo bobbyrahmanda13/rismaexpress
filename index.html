@@ -42,7 +42,12 @@
     <!-- <script src="script.js"></script> -->
 
     <footer>
-      <p>Copyright &copy; <a class="link-reset" href="https://www.instagram.com/rismaexpress">Risma Express</a></p>
+      <p>Copyright &copy; <span id="year"></span> <a class="link-reset" href="https://www.instagram.com/rismaexpress">Risma Express</a></p>
     </footer>
+
+    <script>
+      const yearElement = document.getElementById('year');
+      yearElement.textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>

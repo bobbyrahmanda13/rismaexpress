@@ -67,7 +67,6 @@ a {
   transition: none; /* Remove transition */
 }
 .link-reset:hover {
-  background-color:none;
   text-decoration:underline;
 }
 
