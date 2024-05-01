@@ -53,10 +53,9 @@ a {
   font-weight: bold;
 
 }
-.linkl{
-  display:flex;
-  padding:0;
-  margin:0;
+a.linkl {
+  color: inherit;  /* Inherits color from parent element */
+  text-decoration: none;  /* Removes underline */
 }
 
 .featured::before {
