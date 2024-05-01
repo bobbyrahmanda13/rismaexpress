@@ -62,14 +62,13 @@ a {
   border: none; /* Remove border */
   border-radius: 0; /* Remove border radius */
   max-width: none; /* Remove max-width */
-  text-decoration: underline; /* Revert to default underline */
+  text-decoration: none; /* Revert to default underline */
   font-size: inherit; /* Inherit font size */
   transition: none; /* Remove transition */
-
-  &:hover {
-    background-color:none;
-    text-decoration:double;
-  }
+}
+.link-reset:hover {
+  background-color:none;
+  text-decoration:underline;
 }
 
 .featured::before {
