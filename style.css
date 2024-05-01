@@ -53,9 +53,18 @@ a {
   font-weight: bold;
 
 }
-a.linkl {
-  color: inherit;  /* Inherits color from parent element */
-  text-decoration: none;  /* Removes underline */
+
+.link-reset {
+  display: inline-block; /* Reset to inline-block */
+  margin: 0; /* Reset margins */
+  padding: 0; /* Reset padding */
+  color: inherit; /* Inherit color from parent */
+  border: none; /* Remove border */
+  border-radius: 0; /* Remove border radius */
+  max-width: none; /* Remove max-width */
+  text-decoration: underline; /* Revert to default underline */
+  font-size: inherit; /* Inherit font size */
+  transition: none; /* Remove transition */
 }
 
 .featured::before {
