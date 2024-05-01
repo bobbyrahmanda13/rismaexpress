@@ -53,6 +53,10 @@ a {
   font-weight: bold;
 
 }
+.linkl{
+  display:block;
+  padding:0;
+}
 
 .featured::before {
   content: "";
