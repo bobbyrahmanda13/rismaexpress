@@ -17,7 +17,8 @@ body {
     color-stop(100%, #20a391)
   );
   background-image: linear-gradient(#060042 2%, #20a39e 108%); */
-  background-image: url(https://rismaexpress.github.io/rismaexpress/img/main-banner.jpg);
+  background-image: url(https://rismaexpress.github.io/rismaexpress/img/main-banner.jpg) no-repeat center fixed;
+  background-size: cover;
   color: white;
   min-height: 100vh;
   text-align: center;
