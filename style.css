@@ -24,6 +24,10 @@ body {
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
+.boldd{
+  font-weight:800;
+}
+
 .logo {
   width: 10em;
   border-radius: 50%;
