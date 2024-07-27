@@ -27,6 +27,9 @@ body {
 .boldd{
   font-weight:800;
 }
+.linee{
+  text-decoration:underline wavy red 2px;
+}
 
 .logo {
   width: 10em;
