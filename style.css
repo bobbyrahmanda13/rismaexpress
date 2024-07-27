@@ -28,7 +28,7 @@ body {
   font-weight:800;
 }
 .linee{
-  text-decoration: underline overline solid red 2px;
+  text-decoration: underline wavy red 2px;
 }
 
 .logo {
