@@ -70,7 +70,7 @@ a {
   border: none; /* Remove border */
   border-radius: 0; /* Remove border radius */
   max-width: none; /* Remove max-width */
-  text-decoration: none; /* Revert to default underline */
+  /* text-decoration: none; /* Revert to default underline */ */
   font-size: inherit; /* Inherit font size */
   transition: none; /* Remove transition */
 }
